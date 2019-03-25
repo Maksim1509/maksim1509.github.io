@@ -14,36 +14,45 @@ body {
 #header {
   text-align: center;
 }
-
-  #footer{
+#footer{
       margin-top: 64px;
       text-align: center; 
   }
-  h.size {
-      font-weight: 400;
-  }
-  h1.sizeh1 {
+h1 {
   font-size: 36px;
-  margin-bottom: 0px;
-  }
-.sizeh2 {
+  font-weight: 400px;
+}
+h2 {
       font-size: 32px;
       margin-bottom: 8px;
       border: 2px solid blueviolet;
       border-radius: 5px;
       padding-left: 20px;
-  }
-  h3.sizeh3 {
+}
+h3 {
   font-size: 20px;
   margin-bottom: 0px;
   }
-
-a {
+#header a {
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(95, 78, 245);
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(199, 198, 198);
+}
+#header a:hover {
+  background-color: white;
+  color:rgb(95, 78, 245);
 }
 
+#footer a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: black;
+}
 .myself {
     padding: 20px;
     padding-bottom: 0px; 
